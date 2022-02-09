@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+elvis.egg-info/PKG-INFO
+elvis.egg-info/SOURCES.txt
+elvis.egg-info/dependency_links.txt
+elvis.egg-info/entry_points.txt
+elvis.egg-info/requires.txt
+elvis.egg-info/top_level.txt

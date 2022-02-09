@@ -1,0 +1,3 @@
+[console_scripts]
+elvis = elvis.main:app
+
