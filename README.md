@@ -29,6 +29,17 @@
  
    - Alternatives considered
         - Currently, the tagging process involves adding tags into an input box but what if we could separate the process into sections like frameworks, tasks,             algorithms, etc. to guide the user to add relevant tags. This is a very simple solution that should be A/B tested on and could even complement more               sophisticated solutions.
-  
 
-Simulation of creativity in Machines
+## Feasibility
+What are the signals?
+
+<li>title, description and other relevant metadata from the content [DATA]</li>
+<li>are the tokens in the content metadata enough signal to identify explicit and implicit tags [EXPLORE]</li>
+
+## Constraints
+ - maintain low latency (>100ms) when providing our generated tags. [Latency]
+ - only recommend tags from our list of approved tags. [Security]
+ - avoid overwhelming the author with too many predicted tags. [UI/UX]
+
+
+  
