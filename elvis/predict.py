@@ -7,7 +7,7 @@ from typing import Dict, List
 import numpy as np
 import torch
 
-from tagifai import data, train
+from elvis import data, train
 
 
 def predict(texts, artifacts, device:torch.device = torch.device("cpu")):

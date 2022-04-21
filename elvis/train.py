@@ -16,7 +16,7 @@ import torch.nn as nn
 from sklearn.metrics import precision_recall_curve
 
 from config import config
-from tagifai import data, eval, models, utils
+from elvis import data, eval, models, utils
 
 
 class Trainer:
