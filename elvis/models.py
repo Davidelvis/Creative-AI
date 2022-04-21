@@ -1,4 +1,4 @@
-# tagifai/models.py
+# elvis/models.py
 # Model architectures.
 
 import math
